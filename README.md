@@ -33,6 +33,8 @@ This code demonstrates how to take the shapefile provided on the City of Chicago
 }
 ```
 
+It also contains functions to determine which (if any) Chicago neighborhood a given (lat, lng) point is in.
+
 ## Usage
 
 Running the script ``chicago_community_areas.py`` will fetch down the shapefiles from the web and put them in the ``data/`` subdirectory, and then parse out these shapefiles to a JSON blob, which is put in the current working directory with the name ``community_areas.json``.
